@@ -1,11 +1,10 @@
 class Forecast
 
-	attr_reader :current, :hourly, :daily, :id
+	attr_reader :summary, :current_temperature
 
 	def initialize(data)
 		cumulate = Cumulate.new(data)
-		@current = cumulate.current
-		@hourly = cumulate.hourly
-		@daily = cumulate.daily
+		@summary = cumulate.summary
+		@current_temperature = cumulate.current_temperature
 	end
 end
