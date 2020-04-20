@@ -4,7 +4,7 @@ class Antipode
 
 	def initialize(city, weather, search_location)
 		@location_name = city
-		@forecast = Forecast.new(:forecast)
+		@forecast = Forecast.new(weather)
 		@search_location = search_location
 	end
 end

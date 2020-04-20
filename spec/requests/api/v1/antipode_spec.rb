@@ -7,6 +7,7 @@ describe "Antipode Api", :vcr do
 		expect(response.body).to include("data")
 		expect(response.body).to include("antipode")
 		expect(response.body).to include("location_name")
+		binding.pry
 		expect(response.body).to include("forecast")
 	end
 end

@@ -6,8 +6,7 @@ class Api::V1::AntipodeController < ApplicationController
 		antipode_latlong = antipode_service.fetch_antipode
 		message = WeatherService.new(antipode_latlong).response
 		city = location_service.fetch_city(antipode_service.fetch_antipode)
-		binding.pry
 		antipode = Antipode.new(city, message, params[:location])
-		binding.pry
+		render json: AntipodeSerializer.new(antipode)
 	end
 end
