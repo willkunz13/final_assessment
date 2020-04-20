@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 			get '/forecast', to: 'weather#show'
 			
 			post '/users', to: 'users#create'
+
+			get '/antipode', to: 'antipode#show'
 		end
 	end
 end
