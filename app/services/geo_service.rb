@@ -8,6 +8,9 @@ class GeoService
 		get_json[:results].first[:geometry][:location]
 	end
 
+	def fetch_city(lat_long)
+		reverse_get_json(lat_long)	
+
 	private
 
   def get_json
@@ -18,4 +21,9 @@ class GeoService
   def conn
 		Faraday.get("https://maps.googleapis.com/maps/api/geocode/json?address=#{@location}&key=#{ENV['GOOGLE_API_KEY']}")
   end
+
+	def reverse_get_json(lat_long)
+		response = reverse_conn
+		JSON.parse(response.body, symbolize_names: true)
+	end
 end
