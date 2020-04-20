@@ -1,12 +1,13 @@
 class WeatherService
 
 	def initialize(location)
+		location[:lng] = location.delete(:long)
 		@lat = location[:lat]
 		@lon = location[:lng]
 	end
 
 	def response
-		Cumulative.new(get_json)
+		get_json
 	end
 
 	private
