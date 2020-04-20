@@ -21,7 +21,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 20 Apr 2020 16:10:42 GMT
+      - Mon, 20 Apr 2020 17:06:03 GMT
       Pragma:
       - no-cache
       Expires:
@@ -41,7 +41,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=44
+      - gfet4t7; dur=47
       Alt-Svc:
       - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
         ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
@@ -96,7 +96,7 @@ http_interactions:
            "status" : "OK"
         }
     http_version: null
-  recorded_at: Mon, 20 Apr 2020 16:10:42 GMT
+  recorded_at: Mon, 20 Apr 2020 17:06:03 GMT
 - request:
     method: get
     uri: http://amypode.herokuapp.com/api/v1/antipodes?lat=22.3193039&long=114.1693611
@@ -120,7 +120,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Mon, 20 Apr 2020 16:10:41 GMT
+      - Mon, 20 Apr 2020 17:06:02 GMT
       Connection:
       - keep-alive
       X-Frame-Options:
@@ -142,9 +142,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5d32c5d9-856e-48ec-9e60-44448ebf661d
+      - 0e9c700b-3221-46bf-bed0-02c376dc74fa
       X-Runtime:
-      - '0.003666'
+      - '0.002244'
       Transfer-Encoding:
       - chunked
       Via:
@@ -153,7 +153,7 @@ http_interactions:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"antipode","attributes":{"lat":-22.3193039,"long":-65.8306389}}}'
     http_version: null
-  recorded_at: Mon, 20 Apr 2020 16:10:42 GMT
+  recorded_at: Mon, 20 Apr 2020 17:06:03 GMT
 - request:
     method: get
     uri: https://api.openweathermap.org/data/2.5/onecall?appid=7bd06b4ee051fb8ce184198aa069c038&lat=-22.3193039&lon=-65.8306389
@@ -175,7 +175,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Mon, 20 Apr 2020 16:10:43 GMT
+      - Mon, 20 Apr 2020 17:06:03 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -192,13 +192,12 @@ http_interactions:
       - GET, POST
     body:
       encoding: UTF-8
-      string: '{"lat":-22.32,"lon":-65.83,"timezone":"America/Argentina/Jujuy","current":{"dt":1587398824,"sunrise":1587379069,"sunset":1587420361,"temp":285.14,"feels_like":281.03,"pressure":1020,"humidity":13,"dew_point":259.21,"uvi":10.78,"clouds":0,"wind_speed":1.01,"wind_deg":52,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}]},"hourly":[{"dt":1587398400,"temp":285.14,"feels_like":281.03,"pressure":1020,"humidity":13,"dew_point":259.21,"clouds":0,"wind_speed":1.01,"wind_deg":52,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}]},{"dt":1587402000,"temp":286.07,"feels_like":282.06,"pressure":1018,"humidity":11,"dew_point":258.06,"clouds":1,"wind_speed":0.78,"wind_deg":90,"weather":[{"id":800,"main":"Clear","description":"clear
+      string: '{"lat":-22.32,"lon":-65.83,"timezone":"America/Argentina/Jujuy","current":{"dt":1587402103,"sunrise":1587379069,"sunset":1587420361,"temp":286.07,"feels_like":282.06,"pressure":1018,"humidity":11,"dew_point":258.06,"uvi":10.78,"clouds":1,"wind_speed":0.78,"wind_deg":90,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}]},"hourly":[{"dt":1587402000,"temp":286.07,"feels_like":282.06,"pressure":1018,"humidity":11,"dew_point":258.06,"clouds":1,"wind_speed":0.78,"wind_deg":90,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}]},{"dt":1587405600,"temp":286.45,"feels_like":282.29,"pressure":1016,"humidity":10,"dew_point":257.3,"clouds":8,"wind_speed":0.95,"wind_deg":118,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}]},{"dt":1587409200,"temp":286.75,"feels_like":282.51,"pressure":1016,"humidity":9,"dew_point":256.38,"clouds":92,"wind_speed":1,"wind_deg":117,"weather":[{"id":804,"main":"Clouds","description":"overcast
         clouds","icon":"04d"}]},{"dt":1587412800,"temp":287.05,"feels_like":282.74,"pressure":1016,"humidity":9,"dew_point":256.59,"clouds":86,"wind_speed":1.11,"wind_deg":91,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04d"}]},{"dt":1587416400,"temp":286.88,"feels_like":282.27,"pressure":1016,"humidity":10,"dew_point":267.95,"clouds":83,"wind_speed":1.61,"wind_deg":45,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}]},{"dt":1587416400,"temp":286.88,"feels_like":282.27,"pressure":1016,"humidity":10,"dew_point":257.6,"clouds":83,"wind_speed":1.61,"wind_deg":45,"weather":[{"id":803,"main":"Clouds","description":"broken
         clouds","icon":"04d"}]},{"dt":1587420000,"temp":285.81,"feels_like":280.66,"pressure":1017,"humidity":12,"dew_point":269.57,"clouds":83,"wind_speed":2.47,"wind_deg":27,"weather":[{"id":803,"main":"Clouds","description":"broken
         clouds","icon":"04d"}]},{"dt":1587423600,"temp":284.62,"feels_like":278.62,"pressure":1018,"humidity":14,"dew_point":271.42,"clouds":83,"wind_speed":3.75,"wind_deg":24,"weather":[{"id":803,"main":"Clouds","description":"broken
         clouds","icon":"04n"}]},{"dt":1587427200,"temp":283.09,"feels_like":276.5,"pressure":1019,"humidity":18,"dew_point":273.26,"clouds":80,"wind_speed":4.73,"wind_deg":30,"weather":[{"id":803,"main":"Clouds","description":"broken
@@ -241,8 +240,9 @@ http_interactions:
         sky","icon":"01d"}]},{"dt":1587560400,"temp":280.03,"feels_like":275.77,"pressure":1020,"humidity":25,"dew_point":276.04,"clouds":7,"wind_speed":1.54,"wind_deg":9,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}]},{"dt":1587564000,"temp":281.97,"feels_like":277.64,"pressure":1020,"humidity":21,"dew_point":275.07,"clouds":4,"wind_speed":1.59,"wind_deg":21,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}]},{"dt":1587567600,"temp":283.81,"feels_like":279.43,"pressure":1019,"humidity":17,"dew_point":273.37,"clouds":2,"wind_speed":1.57,"wind_deg":21,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}]}],"daily":[{"dt":1587398400,"sunrise":1587379069,"sunset":1587420361,"temp":{"day":285.14,"min":280.71,"max":287.13,"night":280.71,"eve":287.13,"morn":285.14},"feels_like":{"day":280.7,"night":274.71,"eve":282.53,"morn":280.7},"pressure":1020,"humidity":13,"dew_point":259.21,"wind_speed":1.48,"wind_deg":36,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"clouds":0,"uvi":10.78},{"dt":1587484800,"sunrise":1587465492,"sunset":1587506715,"temp":{"day":283.95,"min":277.52,"max":286.52,"night":280.26,"eve":286.04,"morn":277.52},"feels_like":{"day":279.77,"night":274.84,"eve":280.56,"morn":272.65},"pressure":1020,"humidity":16,"dew_point":272.69,"wind_speed":1.23,"wind_deg":48,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}]},{"dt":1587571200,"temp":285.43,"feels_like":280.79,"pressure":1017,"humidity":13,"dew_point":271.1,"clouds":2,"wind_speed":1.79,"wind_deg":13,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}]}],"daily":[{"dt":1587398400,"sunrise":1587379069,"sunset":1587420361,"temp":{"day":286.07,"min":280.72,"max":287.51,"night":280.72,"eve":287.33,"morn":286.07},"feels_like":{"day":281.57,"night":274.72,"eve":282.68,"morn":281.57},"pressure":1018,"humidity":11,"dew_point":258.06,"wind_speed":1.48,"wind_deg":36,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"clouds":1,"uvi":10.78},{"dt":1587484800,"sunrise":1587465492,"sunset":1587506715,"temp":{"day":283.95,"min":277.52,"max":286.52,"night":280.26,"eve":286.04,"morn":277.52},"feels_like":{"day":279.77,"night":274.84,"eve":280.56,"morn":272.65},"pressure":1020,"humidity":16,"dew_point":272.69,"wind_speed":1.23,"wind_deg":48,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}],"clouds":0,"uvi":10.61},{"dt":1587571200,"sunrise":1587551915,"sunset":1587593069,"temp":{"day":283.81,"min":277.31,"max":288,"night":280.86,"eve":288,"morn":277.31},"feels_like":{"day":279.43,"night":275.49,"eve":282.23,"morn":272.46},"pressure":1019,"humidity":17,"dew_point":273.37,"wind_speed":1.57,"wind_deg":21,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}],"clouds":2,"uvi":10.67},{"dt":1587657600,"sunrise":1587638339,"sunset":1587679424,"temp":{"day":284.89,"min":278.25,"max":288.95,"night":281.36,"eve":288.95,"morn":278.25},"feels_like":{"day":280.32,"night":275.65,"eve":282.3,"morn":273.35},"pressure":1016,"humidity":15,"dew_point":272.5,"wind_speed":1.79,"wind_deg":17,"weather":[{"id":800,"main":"Clear","description":"clear
         sky","icon":"01d"}],"clouds":0,"uvi":10.53},{"dt":1587744000,"sunrise":1587724763,"sunset":1587765780,"temp":{"day":286.08,"min":277.72,"max":289.91,"night":282.28,"eve":289.91,"morn":277.72},"feels_like":{"day":281.96,"night":277.02,"eve":283.1,"morn":273.76},"pressure":1012,"humidity":9,"dew_point":265.12,"wind_speed":0.8,"wind_deg":7,"weather":[{"id":800,"main":"Clear","description":"clear
@@ -251,7 +251,7 @@ http_interactions:
         clouds","icon":"03d"}],"clouds":40,"uvi":9.21},{"dt":1588003200,"sunrise":1587984036,"sunset":1588024853,"temp":{"day":284.54,"min":278.4,"max":289.37,"night":281.38,"eve":289.37,"morn":278.4},"feels_like":{"day":279.04,"night":275.9,"eve":283.58,"morn":273.19},"pressure":1017,"humidity":13,"dew_point":270.68,"wind_speed":2.97,"wind_deg":7,"weather":[{"id":801,"main":"Clouds","description":"few
         clouds","icon":"02d"}],"clouds":21,"uvi":9.32}]}'
     http_version: null
-  recorded_at: Mon, 20 Apr 2020 16:10:43 GMT
+  recorded_at: Mon, 20 Apr 2020 17:06:03 GMT
 - request:
     method: get
     uri: http://amypode.herokuapp.com/api/v1/antipodes?lat=22.3193039&long=114.1693611
@@ -275,7 +275,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Mon, 20 Apr 2020 16:10:44 GMT
+      - Mon, 20 Apr 2020 17:06:03 GMT
       Connection:
       - keep-alive
       X-Frame-Options:
@@ -297,9 +297,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 904d1efa-74e7-49aa-8a8e-1be2a51a0a3d
+      - 9109b486-89a5-482d-bd8a-5f861b430b48
       X-Runtime:
-      - '0.003255'
+      - '0.002512'
       Transfer-Encoding:
       - chunked
       Via:
@@ -308,7 +308,7 @@ http_interactions:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"antipode","attributes":{"lat":-22.3193039,"long":-65.8306389}}}'
     http_version: null
-  recorded_at: Mon, 20 Apr 2020 16:10:44 GMT
+  recorded_at: Mon, 20 Apr 2020 17:06:03 GMT
 - request:
     method: get
     uri: https://maps.googleapis.com/maps/api/geocode/json?key=<GOOGLE_API_KEY>&latlng=-22.3193039,-65.8306389
@@ -330,7 +330,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 20 Apr 2020 16:10:44 GMT
+      - Mon, 20 Apr 2020 17:06:04 GMT
       Pragma:
       - no-cache
       Expires:
@@ -348,7 +348,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=50
+      - gfet4t7; dur=96
       Alt-Svc:
       - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
         ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
@@ -554,5 +554,5 @@ http_interactions:
            "status" : "OK"
         }
     http_version: null
-  recorded_at: Mon, 20 Apr 2020 16:10:44 GMT
+  recorded_at: Mon, 20 Apr 2020 17:06:04 GMT
 recorded_with: VCR 5.1.0

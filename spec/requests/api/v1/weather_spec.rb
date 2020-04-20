@@ -2,6 +2,7 @@ require 'rails_helper'
 
 describe "Items API", :vcr do
   it "sends a list of items" do
+		skip
     get '/api/v1/forecast?location=denver,co', params: {}, headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}
 		expect(response).to be_successful
 		weather = JSON.parse(response.body, symbolize_names: true)

@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://amypode.herokuapp.com/api/v1/antipodes?lat=-22.3193039&long=-65.8306389
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Api-Key:
+      - oscar_the_grouch
+      User-Agent:
+      - Faraday v1.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 20 Apr 2020 17:06:06 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"68ef8bae1d5d37ae21482b81f1fbc539"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - cf9991f8-451f-48a3-9c28-dd193dd3e817
+      X-Runtime:
+      - '0.002224'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"1","type":"antipode","attributes":{"lat":22.3193039,"long":114.1693611}}}'
+    http_version: null
+  recorded_at: Mon, 20 Apr 2020 17:06:06 GMT
+recorded_with: VCR 5.1.0

@@ -2,6 +2,7 @@ require 'rails_helper'
 
 describe 'Register'  do
   it 'user registers' do
+		skip
 		headers = {
 	 	"Accept" => "application/json"
 }
