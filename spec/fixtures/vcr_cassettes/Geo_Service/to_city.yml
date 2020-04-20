@@ -1,0 +1,515 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/geocode/json?key=<GOOGLE_API_KEY>&latlng=22.3193039,114.1693611
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 20 Apr 2020 17:22:36 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Vary:
+      - Accept-Language
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Goog-Maps-Metro-Area:
+      - Hong Kong
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=170
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443";
+        ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443";
+        ma=2592000,h3-T050=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "plus_code" : {
+              "compound_code" : "8599+PP Hong Kong",
+              "global_code" : "7PJP8599+PP"
+           },
+           "results" : [
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Mong Kok Station",
+                       "short_name" : "Mong Kok Station",
+                       "types" : [
+                          "establishment",
+                          "point_of_interest",
+                          "subway_station",
+                          "transit_station"
+                       ]
+                    },
+                    {
+                       "long_name" : "Mong Kok",
+                       "short_name" : "Mong Kok",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Kowloon",
+                       "short_name" : "Kowloon",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "Hong Kong",
+                       "short_name" : "HK",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Mong Kok Station, Mong Kok, Hong Kong",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 22.319253,
+                       "lng" : 114.169355
+                    },
+                    "location_type" : "GEOMETRIC_CENTER",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 22.3206019802915,
+                          "lng" : 114.1707039802915
+                       },
+                       "southwest" : {
+                          "lat" : 22.3179040197085,
+                          "lng" : 114.1680060197085
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJk-ZOwscABDQReCIKoir2RpU",
+                 "plus_code" : {
+                    "compound_code" : "8599+PP Mong Kok, Hong Kong",
+                    "global_code" : "7PJP8599+PP"
+                 },
+                 "types" : [
+                    "establishment",
+                    "point_of_interest",
+                    "subway_station",
+                    "transit_station"
+                 ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Shanghai Commercial Bank Building",
+                       "short_name" : "Shanghai Commercial Bank Building",
+                       "types" : [ "premise" ]
+                    },
+                    {
+                       "long_name" : "666",
+                       "short_name" : "666",
+                       "types" : [ "street_number" ]
+                    },
+                    {
+                       "long_name" : "Nathan Road",
+                       "short_name" : "Nathan Rd",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Mong Kok",
+                       "short_name" : "Mong Kok",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Kowloon",
+                       "short_name" : "Kowloon",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "Hong Kong",
+                       "short_name" : "HK",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Shanghai Commercial Bank Building, 666 Nathan Rd, Mong Kok, Hong Kong",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 22.3197067,
+                          "lng" : 114.1696377
+                       },
+                       "southwest" : {
+                          "lat" : 22.3194994,
+                          "lng" : 114.1694375
+                       }
+                    },
+                    "location" : {
+                       "lat" : 22.3196086,
+                       "lng" : 114.1695511
+                    },
+                    "location_type" : "ROOFTOP",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 22.3209520302915,
+                          "lng" : 114.1708865802915
+                       },
+                       "southwest" : {
+                          "lat" : 22.3182540697085,
+                          "lng" : 114.1681886197085
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJ-c193McABDQRmNAvgQc4XVI",
+                 "types" : [ "premise" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "18",
+                       "short_name" : "18",
+                       "types" : [ "street_number" ]
+                    },
+                    {
+                       "long_name" : "Argyle Street",
+                       "short_name" : "Argyle St",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Mong Kok",
+                       "short_name" : "Mong Kok",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Kowloon",
+                       "short_name" : "Kowloon",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "Hong Kong",
+                       "short_name" : "HK",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "18 Argyle St, Mong Kok, Hong Kong",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 22.3192999,
+                       "lng" : 114.1693386
+                    },
+                    "location_type" : "RANGE_INTERPOLATED",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 22.3206488802915,
+                          "lng" : 114.1706875802915
+                       },
+                       "southwest" : {
+                          "lat" : 22.3179509197085,
+                          "lng" : 114.1679896197085
+                       }
+                    }
+                 },
+                 "place_id" : "EiExOCBBcmd5bGUgU3QsIE1vbmcgS29rLCBIb25nIEtvbmciGhIYChQKEgnPLcTpxwAENBGf_mTS6hNwvxAS",
+                 "types" : [ "street_address" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Argyle Street",
+                       "short_name" : "Argyle St",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Mong Kok",
+                       "short_name" : "Mong Kok",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Kowloon",
+                       "short_name" : "Kowloon",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "Hong Kong",
+                       "short_name" : "HK",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Argyle St, Mong Kok, Hong Kong",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 22.3193108,
+                          "lng" : 114.1694214
+                       },
+                       "southwest" : {
+                          "lat" : 22.3192999,
+                          "lng" : 114.1693386
+                       }
+                    },
+                    "location" : {
+                       "lat" : 22.3193054,
+                       "lng" : 114.16938
+                    },
+                    "location_type" : "GEOMETRIC_CENTER",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 22.3206543302915,
+                          "lng" : 114.1707289802915
+                       },
+                       "southwest" : {
+                          "lat" : 22.3179563697085,
+                          "lng" : 114.1680310197085
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJj6W0w8cABDQRYgqDiw9P2dE",
+                 "types" : [ "route" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Mong Kok",
+                       "short_name" : "Mong Kok",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Kowloon",
+                       "short_name" : "Kowloon",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "Hong Kong",
+                       "short_name" : "HK",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Mong Kok, Hong Kong",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 22.326779,
+                          "lng" : 114.174672
+                       },
+                       "southwest" : {
+                          "lat" : 22.3119073,
+                          "lng" : 114.160639
+                       }
+                    },
+                    "location" : {
+                       "lat" : 22.3203648,
+                       "lng" : 114.169773
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 22.326779,
+                          "lng" : 114.174672
+                       },
+                       "southwest" : {
+                          "lat" : 22.3119073,
+                          "lng" : 114.160639
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJD4HHK8YABDQRlBgIGFkqoTs",
+                 "types" : [ "neighborhood", "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Yau Tsim Mong District",
+                       "short_name" : "Yau Tsim Mong District",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "Kowloon",
+                       "short_name" : "Kowloon",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "Hong Kong",
+                       "short_name" : "HK",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Yau Tsim Mong District, Hong Kong",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 22.326978,
+                          "lng" : 114.1809621
+                       },
+                       "southwest" : {
+                          "lat" : 22.292885,
+                          "lng" : 114.15424
+                       }
+                    },
+                    "location" : {
+                       "lat" : 22.3116028,
+                       "lng" : 114.1706884
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 22.326978,
+                          "lng" : 114.1809621
+                       },
+                       "southwest" : {
+                          "lat" : 22.292885,
+                          "lng" : 114.15424
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJV4T2M5UABDQREoOIKqiR83o",
+                 "types" : [ "administrative_area_level_2", "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Kowloon",
+                       "short_name" : "Kowloon",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "Hong Kong",
+                       "short_name" : "HK",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Kowloon, Hong Kong",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 22.3726529,
+                          "lng" : 114.2455041
+                       },
+                       "southwest" : {
+                          "lat" : 22.2858651,
+                          "lng" : 114.121388
+                       }
+                    },
+                    "location" : {
+                       "lat" : 22.3185673,
+                       "lng" : 114.1796057
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 22.3726529,
+                          "lng" : 114.2455041
+                       },
+                       "southwest" : {
+                          "lat" : 22.2858651,
+                          "lng" : 114.121388
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJY08J76z4AzQRxALvQEcjed8",
+                 "types" : [ "administrative_area_level_1", "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Hong Kong",
+                       "short_name" : "Hong Kong",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Hong Kong",
+                       "short_name" : "HK",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Hong Kong",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 22.561968,
+                          "lng" : 114.4294999
+                       },
+                       "southwest" : {
+                          "lat" : 22.1435,
+                          "lng" : 113.8259001
+                       }
+                    },
+                    "location" : {
+                       "lat" : 22.3192011,
+                       "lng" : 114.1696121
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 22.561968,
+                          "lng" : 114.4294999
+                       },
+                       "southwest" : {
+                          "lat" : 22.1435,
+                          "lng" : 113.8259001
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJByjqov3-AzQR2pT0dDW0bUg",
+                 "types" : [ "locality", "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Hong Kong",
+                       "short_name" : "HK",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Hong Kong",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 22.5619469,
+                          "lng" : 114.4294999
+                       },
+                       "southwest" : {
+                          "lat" : 22.1435,
+                          "lng" : 113.8259001
+                       }
+                    },
+                    "location" : {
+                       "lat" : 22.3193039,
+                       "lng" : 114.1693611
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 22.5619469,
+                          "lng" : 114.4294999
+                       },
+                       "southwest" : {
+                          "lat" : 22.1435,
+                          "lng" : 113.8259001
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJD5gyo-3iAzQRfMnq27qzivA",
+                 "types" : [ "country", "political" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: null
+  recorded_at: Mon, 20 Apr 2020 17:22:36 GMT
+recorded_with: VCR 5.1.0
